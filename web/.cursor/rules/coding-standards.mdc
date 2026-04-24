@@ -1,0 +1,50 @@
+---
+description: Coding standards for Gateway Manager
+globs: src/**/*.{ts,tsx}
+---
+
+# Coding Standards
+
+## File Organization
+- Components: PascalCase directories with index.tsx
+- Hooks: use-*.ts with camelCase
+- Utilities: kebab-case.ts
+- Route components: Use TanStack Router file conventions
+
+## Imports Order
+1. React/external libraries
+2. @/ path imports (core, components, stores, etc.)
+3. Relative imports
+4. Type-only imports use `import type`
+
+## Component Patterns
+- Use function declarations for components
+- Export named components (not default) except route components
+- Wrap page content with `<PageContainer>`
+- Use `<Auth permission="...">` for permission-gated UI
+
+## State Management
+- Use Zustand stores in `src/stores/`
+- Server state: TanStack Query with `useResourceCrud` hook
+- URL state: TanStack Router search params with Zod validation
+
+## API & HTTP
+- Define endpoints in `src/api/`
+- Use Zod schemas for request/response types
+- All HTTP calls through `httpClient`
+
+## Logging
+- Create module logger: `const log = createLogger('module-name')`
+- Use structured data: `log.info('message', { key: value })`
+- Errors include traceId for request correlation
+
+## Animation
+- Use motion presets from `@/core/motion`
+- Respect `prefers-reduced-motion` via `useMotion` hook
+- Page transitions: `<PageTransition>`
+- List animations: `<AnimatedList>` + `<AnimatedListItem>`
+
+## Theme
+- Use Ant Design token via `theme.useToken()`
+- Dark mode: check `useTheme().isDark`
+- Custom themes: register via `registerPreset()`

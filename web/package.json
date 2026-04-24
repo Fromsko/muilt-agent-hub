@@ -1,0 +1,71 @@
+{
+  "name": "manager-template",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "author": "fromsko <github.com/fromsko>",
+  "homepage": "https://github.com/fromsko",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fromsko/manager-template"
+  },
+  "keywords": [
+    "bun",
+    "rsbuild",
+    "react",
+    "antd",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "build:go": "rsbuild build",
+    "preview": "rsbuild preview",
+    "test": "rstest src",
+    "test:watch": "rstest -w src",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@assistant-ui/react": "^0.12.25",
+    "@assistant-ui/react-markdown": "^0.12.9",
+    "@tanstack/react-query": "^5.99.0",
+    "@tanstack/react-router": "^1.168.22",
+    "antd": "^6.3.6",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^1.8.0",
+    "motion": "^12.38.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@rstest/core": "^0.9.8",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tanstack/router-plugin": "^1.167.22",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "happy-dom": "^20.9.0",
+    "jsdom": "^29.0.2",
+    "msw": "^2.13.4",
+    "start-server-and-test": "^3.0.2",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

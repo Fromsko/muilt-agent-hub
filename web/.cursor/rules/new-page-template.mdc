@@ -1,0 +1,37 @@
+---
+description: Template for creating new admin pages
+globs: src/routes/_auth/**/*.tsx
+---
+
+# New Page Template
+
+When creating a new page under `_auth/`:
+
+```tsx
+import { createFileRoute } from '@tanstack/react-router';
+import { PageContainer } from '@/components/PageContainer';
+
+export const Route = createFileRoute('/_auth/<page-name>/')({
+  component: PageNamePage,
+  staticData: { breadcrumb: '页面名称' },
+});
+
+function PageNamePage() {
+  return (
+    <PageContainer title="页面名称">
+      {/* Page content */}
+    </PageContainer>
+  );
+}
+```
+
+Then add to `src/utils/app-menu.ts`:
+```typescript
+{
+  key: 'page-name',
+  label: '页面名称',
+  icon: 'IconName',  // from lucide-react
+  path: '/page-name',
+  permissions: ['page:read'],
+}
+```

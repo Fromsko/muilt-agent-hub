@@ -1,0 +1,19 @@
+.dash-stat-card {
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.dash-stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.dash-stat-card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 140px;
+}
+
+.dash-card {
+  height: 100%;
+}

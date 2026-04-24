@@ -1,0 +1,1729 @@
+### place-items-start Example
+
+Source: https://tailwindcss.com/docs/place-items
+
+Demonstrates how to use the place-items-start utility to place grid items at the start of their grid areas on both axes.
+
+```APIDOC
+## place-items-start
+
+### Description
+Place grid items on the start of their grid areas on both axes.
+
+### Usage Example
+
+```html
+<div class="grid grid-cols-3 place-items-start gap-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+
+### CSS Output
+```css
+place-items: start;
+```
+```
+
+--------------------------------
+
+### Start the build process
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/emberjs
+
+Run the local development server using the npm start script.
+
+```bash
+npm run start
+```
+
+--------------------------------
+
+### Create TanStack Start project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/tanstack-start
+
+Initialize a new TanStack Start project using Create Start App.
+
+```bash
+npx create-start-app@latest my-projectcd my-project
+```
+
+--------------------------------
+
+### Start your build process
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/parcel
+
+Use the Parcel CLI to compile your project and start the development server.
+
+```terminal
+npx parcel src/index.html
+```
+
+--------------------------------
+
+### place-self-start Example
+
+Source: https://tailwindcss.com/docs/place-self
+
+Demonstrates using the place-self-start class to align an item to the start position on both axes.
+
+```APIDOC
+## place-self-start
+
+### Description
+Align an item to the start on both axes.
+
+### Example
+```html
+<div class="grid grid-cols-3 gap-4 ...">
+  <div>01</div>
+  <div class="place-self-start ...">02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+```
+
+--------------------------------
+
+### Start the development server
+
+Source: https://tailwindcss.com/docs
+
+Run the development server using npm run dev or the command configured in your package.json.
+
+```bash
+npm run dev
+```
+
+--------------------------------
+
+### Start Gatsby development server
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/gatsby
+
+Run 'gatsby develop' to start the local development server and build your project.
+
+```shell
+gatsby develop
+```
+
+--------------------------------
+
+### Start the Rails development server
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/ruby-on-rails
+
+Initiate the build process and start the development server for your Rails application.
+
+```shell
+./bin/dev
+```
+
+--------------------------------
+
+### mask-mode Basic Example
+
+Source: https://tailwindcss.com/docs/mask-mode
+
+Example demonstrating how to use mask-alpha and mask-luminance utilities with gradient masks applied to background images.
+
+```APIDOC
+## Basic Example
+
+### Description
+Demonstrates using mask-alpha and mask-luminance utilities to control mask rendering modes on elements with background images.
+
+### Example 1: mask-alpha
+```html
+<div class="mask-alpha mask-r-from-black mask-r-from-50% mask-r-to-transparent bg-[url(/img/mountains.jpg)] ..."></div>
+```
+
+**Explanation**: The mask-alpha class uses the opacity of the radial gradient mask (black to transparent) to determine which parts of the background image are visible.
+
+### Example 2: mask-luminance
+```html
+<div class="mask-luminance mask-r-from-white mask-r-from-50% mask-r-to-black bg-[url(/img/mountains.jpg)] ..."></div>
+```
+
+**Explanation**: The mask-luminance class uses the luminance values of the radial gradient mask (white to black) to determine visibility. Grayscale colors are recommended for predictable results.
+
+### Key Differences
+- **mask-alpha**: Opacity of mask determines visibility
+- **mask-luminance**: Luminance/brightness values determine visibility
+```
+
+--------------------------------
+
+### Install Webpack Encore and dependencies
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/symfony
+
+Remove default asset handling bundles and install Webpack Encore for asset building.
+
+```bash
+composer remove symfony/ux-turbo symfony/asset-mapper symfony/stimulus-bundlecomposer require symfony/webpack-encore-bundle symfony/ux-turbo symfony/stimulus-bundle
+```
+
+--------------------------------
+
+### Create new Symfony project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/symfony
+
+Initialize a new Symfony web project using the Symfony Installer.
+
+```bash
+symfony new --webapp my-projectcd my-project
+```
+
+--------------------------------
+
+### Start your build process
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/laravel/mix
+
+Run the `npm run watch` command to compile your assets and watch for changes during development.
+
+```bash
+npm run watch
+```
+
+--------------------------------
+
+### Start Phoenix server
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/phoenix
+
+Run the Phoenix server to initiate the build process and serve your application with Tailwind CSS.
+
+```Terminal
+mix phx.server
+```
+
+--------------------------------
+
+### Install Tailwind CSS
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/parcel
+
+Install the Tailwind CSS package and the PostCSS plugin as dependencies.
+
+```terminal
+npm install tailwindcss @tailwindcss/postcss
+```
+
+--------------------------------
+
+### Install Tailwind CSS and dependencies
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/meteor
+
+Install Tailwind CSS, the PostCSS plugin, and required peer dependencies via npm.
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss postcss-load-config
+```
+
+--------------------------------
+
+### Snap to start with snap-start utility
+
+Source: https://tailwindcss.com/docs/scroll-snap-align
+
+Use snap-start to align elements to their start edge when scrolled inside a snap container. Ideal for left-aligned or top-aligned snap layouts.
+
+```html
+<div class="snap-x ...">  <div class="snap-start ...">    <img src="/img/vacation-01.jpg" />  </div>  <div class="snap-start ...">    <img src="/img/vacation-02.jpg" />  </div>  <div class="snap-start ...">    <img src="/img/vacation-03.jpg" />  </div>  <div class="snap-start ...">    <img src="/img/vacation-04.jpg" />  </div>  <div class="snap-start ...">    <img src="/img/vacation-05.jpg" />  </div>  <div class="snap-start ...">    <img src="/img/vacation-06.jpg" />  </div></div>
+```
+
+--------------------------------
+
+### flex-wrap Example
+
+Source: https://tailwindcss.com/docs/flex-wrap
+
+Example demonstrating the flex-wrap utility class which allows flex items to wrap normally to the next line when they exceed the container width.
+
+```APIDOC
+## flex-wrap - Wrap Normally
+
+### Description
+Allows flex items to wrap to the next line when they exceed the container width.
+
+### HTML Example
+
+```html
+<div class="flex flex-wrap">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+### CSS Output
+
+```css
+flex-wrap: wrap;
+```
+```
+
+--------------------------------
+
+### scroll-padding Basic Example
+
+Source: https://tailwindcss.com/docs/scroll-padding
+
+Example demonstrating how to use scroll-padding utilities with snap containers. Shows how to apply scroll-pl-6 and scroll-pt-6 utilities to control scroll offset within a horizontally scrollable snap container.
+
+```APIDOC
+# Basic Example
+
+## Description
+Use the `scroll-pt-<number>`, `scroll-pr-<number>`, `scroll-pb-<number>`, and `scroll-pl-<number>` utilities like `scroll-pl-4` and `scroll-pt-6` to set the scroll offset of an element within a snap container.
+
+## Usage
+Scroll in the grid of images to see the expected behavior.
+
+## HTML Example
+```html
+<div class="snap-x scroll-pl-6 ...">
+  <div class="snap-start ...">
+    <img src="/img/vacation-01.jpg" />
+  </div>
+  <div class="snap-start ...">
+    <img src="/img/vacation-02.jpg" />
+  </div>
+  <div class="snap-start ...">
+    <img src="/img/vacation-03.jpg" />
+  </div>
+  <div class="snap-start ...">
+    <img src="/img/vacation-04.jpg" />
+  </div>
+  <div class="snap-start ...">
+    <img src="/img/vacation-05.jpg" />
+  </div>
+</div>
+```
+
+## Notes
+- `snap-x` enables horizontal snap scrolling
+- `scroll-pl-6` applies left scroll padding
+- `snap-start` aligns child elements to snap points
+```
+
+--------------------------------
+
+### Apply Styles for Element Starting State (Tailwind CSS)
+
+Source: https://tailwindcss.com/docs/hover-focus-and-other-states
+
+The `starting` variant allows styling an element when it is first rendered or transitions from `display: none` to visible, useful for initial animations or states.
+
+```html
+<div>  <button popovertarget="my-popover">Check for updates</button>  <div popover id="my-popover" class="opacity-0 starting:open:opacity-0 ...">    <!-- ... -->  </div></div>
+```
+
+--------------------------------
+
+### flex-wrap-reverse Example
+
+Source: https://tailwindcss.com/docs/flex-wrap
+
+Example demonstrating the flex-wrap-reverse utility class which wraps flex items in the reverse direction, with wrapped items appearing above the initial row.
+
+```APIDOC
+## flex-wrap-reverse - Wrap Reversed
+
+### Description
+Wraps flex items in the reverse direction, with wrapped items appearing above the initial row.
+
+### HTML Example
+
+```html
+<div class="flex flex-wrap-reverse">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+### CSS Output
+
+```css
+flex-wrap: wrap-reverse;
+```
+```
+
+--------------------------------
+
+### Install Tailwind CSS CLI
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/phoenix
+
+Run this command to download the standalone Tailwind CLI executable.
+
+```Terminal
+mix tailwind.install
+```
+
+--------------------------------
+
+### place-items-stretch Example
+
+Source: https://tailwindcss.com/docs/place-items
+
+Demonstrates how to use the place-items-stretch utility to stretch items along their grid areas on both axes.
+
+```APIDOC
+## place-items-stretch
+
+### Description
+Stretch items along their grid areas on both axes.
+
+### Usage Example
+
+```html
+<div class="grid h-56 grid-cols-3 place-items-stretch gap-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+
+### CSS Output
+```css
+place-items: stretch;
+```
+```
+
+--------------------------------
+
+### place-self-center Example
+
+Source: https://tailwindcss.com/docs/place-self
+
+Demonstrates using the place-self-center class to center an item on both axes.
+
+```APIDOC
+## place-self-center
+
+### Description
+Align an item at the center on both axes.
+
+### Example
+```html
+<div class="grid grid-cols-3 gap-4 ...">
+  <div>01</div>
+  <div class="place-self-center ...">02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+```
+
+--------------------------------
+
+### place-self-stretch Example
+
+Source: https://tailwindcss.com/docs/place-self
+
+Demonstrates using the place-self-stretch class to stretch an item on both axes.
+
+```APIDOC
+## place-self-stretch
+
+### Description
+Stretch an item on both axes.
+
+### Example
+```html
+<div class="grid grid-cols-3 gap-4 ...">
+  <div>01</div>
+  <div class="place-self-stretch ...">02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+```
+
+--------------------------------
+
+### place-content-start Grid Layout
+
+Source: https://tailwindcss.com/docs/place-content
+
+Packs grid items against the start of both inline and block axes using the place-content-start class.
+
+```HTML
+<div class="grid h-48 grid-cols-2 place-content-start gap-4 ...">  <div>01</div>  <div>02</div>  <div>03</div>  <div>04</div></div>
+```
+
+--------------------------------
+
+### place-items-center Example
+
+Source: https://tailwindcss.com/docs/place-items
+
+Demonstrates how to use the place-items-center utility to place grid items at the center of their grid areas on both axes.
+
+```APIDOC
+## place-items-center
+
+### Description
+Place grid items at the center of their grid areas on both axes.
+
+### Usage Example
+
+```html
+<div class="grid h-56 grid-cols-3 place-items-center gap-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+
+### CSS Output
+```css
+place-items: center;
+```
+```
+
+--------------------------------
+
+### Scale with Variants Example
+
+Source: https://tailwindcss.com/docs/scale
+
+Demonstrates how to apply scale utilities conditionally using variants like hover states.
+
+```APIDOC
+## Scale with Variants
+
+### Description
+Prefix a `scale` utility with a variant like `hover:*` to only apply the utility in that state.
+
+### Usage
+
+```html
+<img class="scale-95 hover:scale-120 ..." src="/img/mountains.jpg" />
+```
+
+### Example
+- `scale-95` - Default scale to 95%
+- `hover:scale-120` - Scale to 120% on hover
+
+### Notes
+Variants can be combined with any scale utility to apply transformations conditionally based on user interactions or other states.
+```
+
+--------------------------------
+
+### Install Tailwind CSS and CLI via npm
+
+Source: https://tailwindcss.com/docs/installation/tailwind-cli
+
+Install the core Tailwind CSS package and the CLI tool using npm to begin your project setup.
+
+```Terminal
+npm install tailwindcss @tailwindcss/cli
+```
+
+--------------------------------
+
+### place-items-end Example
+
+Source: https://tailwindcss.com/docs/place-items
+
+Demonstrates how to use the place-items-end utility to place grid items at the end of their grid areas on both axes.
+
+```APIDOC
+## place-items-end
+
+### Description
+Place grid items on the end of their grid areas on both axes.
+
+### Usage Example
+
+```html
+<div class="grid h-56 grid-cols-3 place-items-end gap-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+
+### CSS Output
+```css
+place-items: end;
+```
+```
+
+--------------------------------
+
+### Create Qwik Project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/qwik
+
+Initialize a new Qwik project using Create Qwik. Run this command to scaffold the project structure.
+
+```bash
+npm create qwik@latest empty my-projectcd my-project
+```
+
+--------------------------------
+
+### Incorrect Peer Usage: Styling Previous Sibling with Tailwind CSS
+
+Source: https://tailwindcss.com/docs/hover-focus-and-other-states
+
+The `peer` marker can only be used on previous siblings. This example shows an incorrect setup where a subsequent sibling attempts to style a previous sibling, which will not work as intended.
+
+```html
+<label>  <span class="peer-invalid:text-red-500 ...">Email</span>  <input type="email" class="peer ..." /></label>
+```
+
+--------------------------------
+
+### Create a SvelteKit project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/sveltekit
+
+Initialize a new SvelteKit project using the official CLI.
+
+```bash
+npx sv create my-projectcd my-project
+```
+
+--------------------------------
+
+### Align grid item to the start with justify-self-start
+
+Source: https://tailwindcss.com/docs/justify-self
+
+Aligns a grid item to the start of its inline axis.
+
+```html
+<div class="grid justify-items-stretch ...">  <!-- ... -->  <div class="justify-self-start ...">02</div>  <!-- ... --></div>
+```
+
+--------------------------------
+
+### Percentage-Based Example
+
+Source: https://tailwindcss.com/docs/min-inline-size
+
+Shows how to use min-inline-full and min-inline-<fraction> utilities to set percentage-based minimum inline sizes for responsive layouts.
+
+```APIDOC
+## Percentage-Based Sizing
+
+### Description
+Use `min-inline-full` or `min-inline-<fraction>` utilities like `min-inline-1/2` and `min-inline-2/5` to give an element a percentage-based minimum inline size.
+
+### HTML Example
+```html
+<div class="flex ...">
+  <div class="min-inline-3/4 ...">min-inline-3/4</div>
+  <div class="inline-full ...">inline-full</div>
+</div>
+```
+
+### CSS Output
+- `min-inline-3/4` → `min-inline-size: calc(3/4 * 100%);`
+- `min-inline-1/2` → `min-inline-size: calc(1/2 * 100%);`
+- `min-inline-2/5` → `min-inline-size: calc(2/5 * 100%);`
+- `min-inline-full` → `min-inline-size: 100%;`
+```
+
+--------------------------------
+
+### Responsive Design Example
+
+Source: https://tailwindcss.com/docs/min-inline-size
+
+Demonstrates how to use breakpoint variants with min-inline-size utilities to apply different minimum inline sizes at different screen sizes.
+
+```APIDOC
+## Responsive Design
+
+### Description
+Prefix a `min-inline-size` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above.
+
+### HTML Example
+```html
+<div class="inline-24 min-inline-full md:min-inline-0 ...">
+  <!-- ... -->
+</div>
+```
+
+### Behavior
+- On small screens: `min-inline-size: 100%;` (from `min-inline-full`)
+- On medium screens and above: `min-inline-size: 0;` (from `md:min-inline-0`)
+
+### Available Breakpoint Variants
+Breakpoint variants can be prefixed to any min-inline-size utility to apply it conditionally at specific screen sizes. Refer to the variants documentation for a complete list of available breakpoints.
+```
+
+--------------------------------
+
+### Create your project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/parcel
+
+Initialize a new Parcel project and set up the basic directory structure.
+
+```terminal
+mkdir my-projectcd my-projectnpm init -ynpm install parcelmkdir srctouch src/index.html
+```
+
+--------------------------------
+
+### Percentage-Based min-width Example
+
+Source: https://tailwindcss.com/docs/min-width
+
+Shows how to use min-w-full and fractional utilities like min-w-1/2 and min-w-2/5 to apply percentage-based minimum widths to elements.
+
+```APIDOC
+## Using a Percentage
+
+### Description
+Use `min-w-full` or `min-w-<fraction>` utilities like `min-w-1/2` and `min-w-2/5` to give an element a percentage-based minimum width.
+
+### HTML
+```html
+<div class="flex ...">
+  <div class="min-w-3/4 ...">min-w-3/4</div>
+  <div class="w-full ...">w-full</div>
+</div>
+```
+
+### Available Fractions
+- `min-w-1/2` - 50%
+- `min-w-1/3` - 33.333%
+- `min-w-2/3` - 66.666%
+- `min-w-1/4` - 25%
+- `min-w-2/4` - 50%
+- `min-w-3/4` - 75%
+- `min-w-1/5` - 20%
+- `min-w-2/5` - 40%
+- `min-w-3/5` - 60%
+- `min-w-4/5` - 80%
+- `min-w-1/6` - 16.666%
+- `min-w-5/6` - 83.333%
+- `min-w-full` - 100%
+```
+
+--------------------------------
+
+### Align Content Start with Tailwind CSS
+
+Source: https://tailwindcss.com/docs/align-content
+
+Use `content-start` to pack rows in a container against the start of the cross axis.
+
+```html
+<div class="grid h-56 grid-cols-3 content-start gap-4 ...">  <div>01</div>  <div>02</div>  <div>03</div>  <div>04</div>  <div>05</div></div>
+```
+
+--------------------------------
+
+### Install tailwindcss-rails gem
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/ruby-on-rails
+
+Add the tailwindcss-rails gem to your project and run the installation command to set up Tailwind CSS.
+
+```shell
+bundle add tailwindcss-rails./bin/rails tailwindcss:install
+```
+
+--------------------------------
+
+### Align items to start with items-start
+
+Source: https://tailwindcss.com/docs/align-items
+
+Use items-start to align flex items to the start of the container's cross axis.
+
+```html
+<div class="flex items-start ...">  <div class="py-4">01</div>  <div class="py-12">02</div>  <div class="py-8">03</div></div>
+```
+
+--------------------------------
+
+### Create a new Astro project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/astro
+
+Use `create astro` to initialize a new Astro project and navigate into its directory.
+
+```bash
+npm create astro@latest my-projectcd my-project
+```
+
+--------------------------------
+
+### Create new Laravel project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/laravel/vite
+
+Initialize a new Laravel project using the Laravel installer and navigate to the project directory.
+
+```bash
+laravel new my-projectcd my-project
+```
+
+--------------------------------
+
+### Basic min-width Example
+
+Source: https://tailwindcss.com/docs/min-width
+
+Demonstrates using min-w-<number> utilities to set fixed minimum widths based on the spacing scale. Shows how elements maintain their minimum width even when constrained by parent containers.
+
+```APIDOC
+## Basic Example
+
+### Description
+Use `min-w-<number>` utilities like `min-w-24` and `min-w-64` to set an element to a fixed minimum width based on the spacing scale.
+
+### HTML
+```html
+<div class="w-20 ...">
+  <div class="min-w-80 ...">min-w-80</div>
+  <div class="min-w-64 ...">min-w-64</div>
+  <div class="min-w-48 ...">min-w-48</div>
+  <div class="min-w-40 ...">min-w-40</div>
+  <div class="min-w-32 ...">min-w-32</div>
+  <div class="min-w-24 ...">min-w-24</div>
+</div>
+```
+
+### Result
+Each child element maintains its specified minimum width despite the parent container being only `w-20` wide.
+```
+
+--------------------------------
+
+### Install Tailwind CSS and Vite plugin
+
+Source: https://tailwindcss.com/docs
+
+Install the required npm packages: tailwindcss and @tailwindcss/vite plugin for Vite integration.
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+--------------------------------
+
+### Create Meteor project with CLI
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/meteor
+
+Initialize a new Meteor project using the Meteor command-line tool.
+
+```bash
+npx meteor create my-projectcd my-project
+```
+
+--------------------------------
+
+### Install Tailwind CSS and PostCSS dependencies
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/emberjs
+
+Install the Tailwind CSS PostCSS plugin and the required loader for the Webpack build process.
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss postcss-loader
+```
+
+--------------------------------
+
+### Container Scale min-width Example
+
+Source: https://tailwindcss.com/docs/min-width
+
+Demonstrates using container scale utilities like min-w-sm and min-w-xl to set fixed minimum widths based on predefined container breakpoints.
+
+```APIDOC
+## Using the Container Scale
+
+### Description
+Use utilities like `min-w-sm` and `min-w-xl` to set an element to a fixed minimum width based on the container scale.
+
+### HTML
+```html
+<div class="w-40 ...">
+  <div class="min-w-lg ...">min-w-lg</div>
+  <div class="min-w-md ...">min-w-md</div>
+  <div class="min-w-sm ...">min-w-sm</div>
+  <div class="min-w-xs ...">min-w-xs</div>
+  <div class="min-w-2xs ...">min-w-2xs</div>
+  <div class="min-w-3xs ...">min-w-3xs</div>
+</div>
+```
+
+### Container Scale Values
+- `min-w-3xs` - 16rem (256px)
+- `min-w-2xs` - 18rem (288px)
+- `min-w-xs` - 20rem (320px)
+- `min-w-sm` - 24rem (384px)
+- `min-w-md` - 28rem (448px)
+- `min-w-lg` - 32rem (512px)
+- `min-w-xl` - 36rem (576px)
+- `min-w-2xl` - 42rem (672px)
+- `min-w-3xl` - 48rem (768px)
+- `min-w-4xl` - 56rem (896px)
+- `min-w-5xl` - 64rem (1024px)
+- `min-w-6xl` - 72rem (1152px)
+- `min-w-7xl` - 80rem (1280px)
+```
+
+--------------------------------
+
+### Install Tailwind CSS and PostCSS dependencies
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/gatsby
+
+Install the necessary npm packages for Tailwind CSS, PostCSS, and the Gatsby PostCSS plugin.
+
+```shell
+npm install @tailwindcss/postcss tailwindcss postcss gatsby-plugin-postcss
+```
+
+--------------------------------
+
+### Create a new React Router project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/react-router
+
+Use `create-react-router` to initialize a new project and navigate into its directory.
+
+```bash
+npx create-react-router@latest my-projectcd my-project
+```
+
+--------------------------------
+
+### Install Tailwind CSS and PostCSS with npm
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/laravel/mix
+
+Install the core Tailwind CSS package, PostCSS, and the PostCSS plugin for Tailwind CSS as development dependencies.
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss
+```
+
+--------------------------------
+
+### Create a new Ruby on Rails project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/ruby-on-rails
+
+Use the Rails command line to initialize a new project and navigate into its directory.
+
+```shell
+rails new my-projectcd my-project
+```
+
+--------------------------------
+
+### Responsive Design with flex-wrap
+
+Source: https://tailwindcss.com/docs/flex-wrap
+
+Example demonstrating how to use breakpoint variants with flex-wrap utilities to apply different wrapping behavior at different screen sizes.
+
+```APIDOC
+## Responsive Design
+
+### Description
+Use breakpoint variants to apply flex-wrap utilities at specific screen sizes.
+
+### HTML Example
+
+```html
+<div class="flex flex-wrap md:flex-wrap-reverse ...">
+  <!-- Items wrap normally on small screens -->
+  <!-- Items wrap in reverse direction on medium screens and above -->
+</div>
+```
+
+### Breakpoint Variants
+
+Prefix any flex-wrap utility with a breakpoint variant:
+
+- `sm:` - Small screens
+- `md:` - Medium screens and above
+- `lg:` - Large screens and above
+- `xl:` - Extra large screens and above
+- `2xl:` - 2XL screens and above
+
+For more information, refer to the variants documentation.
+```
+
+--------------------------------
+
+### flex-nowrap Example
+
+Source: https://tailwindcss.com/docs/flex-wrap
+
+Example demonstrating the flex-nowrap utility class which prevents flex items from wrapping, causing inflexible items to overflow the container if necessary.
+
+```APIDOC
+## flex-nowrap - Don't Wrap
+
+### Description
+Prevents flex items from wrapping, causing inflexible items to overflow the container if necessary.
+
+### HTML Example
+
+```html
+<div class="flex flex-nowrap">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+### CSS Output
+
+```css
+flex-wrap: nowrap;
+```
+```
+
+--------------------------------
+
+### Create an AdonisJS project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/adonisjs
+
+Initialize a new AdonisJS project using the official starter kit.
+
+```terminal
+npm init adonisjs@latest my-project -- --kit=webcd my-project
+```
+
+--------------------------------
+
+### Align item to start with self-start
+
+Source: https://tailwindcss.com/docs/align-self
+
+Use this utility to align an item to the start of the container's cross axis, overriding the container's align-items value.
+
+```html
+<div class="flex items-stretch ...">  <div>01</div>  <div class="self-start ...">02</div>  <div>03</div></div>
+```
+
+--------------------------------
+
+### Basic Scaling Example
+
+Source: https://tailwindcss.com/docs/scale
+
+Demonstrates how to use scale-<number> utilities to scale elements uniformly by a percentage of their original size.
+
+```APIDOC
+## Basic Scaling
+
+### Description
+Use `scale-<number>` utilities like `scale-75` and `scale-150` to scale an element by a percentage of its original size.
+
+### Usage
+
+```html
+<img class="scale-75 ..." src="/img/mountains.jpg" />
+<img class="scale-100 ..." src="/img/mountains.jpg" />
+<img class="scale-125 ..." src="/img/mountains.jpg" />
+```
+
+### Classes
+- `scale-75` - Scales element to 75% of original size
+- `scale-100` - Scales element to 100% of original size (no change)
+- `scale-125` - Scales element to 125% of original size
+```
+
+--------------------------------
+
+### Install Tailwind CSS and dependencies
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/angular
+
+Install Tailwind CSS, the PostCSS plugin, and PostCSS itself via npm with the --force flag to resolve peer dependencies.
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss --force
+```
+
+--------------------------------
+
+### Container Scale Example
+
+Source: https://tailwindcss.com/docs/min-inline-size
+
+Demonstrates using container scale utilities like min-inline-sm and min-inline-xl to set fixed minimum inline sizes based on predefined container scale values.
+
+```APIDOC
+## Container Scale Sizing
+
+### Description
+Use utilities like `min-inline-sm` and `min-inline-xl` to set an element to a fixed minimum inline size based on the container scale.
+
+### HTML Example
+```html
+<div class="inline-40 ...">
+  <div class="min-inline-lg ...">min-inline-lg</div>
+  <div class="min-inline-md ...">min-inline-md</div>
+  <div class="min-inline-sm ...">min-inline-sm</div>
+  <div class="min-inline-xs ...">min-inline-xs</div>
+  <div class="min-inline-2xs ...">min-inline-2xs</div>
+  <div class="min-inline-3xs ...">min-inline-3xs</div>
+</div>
+```
+
+### CSS Output
+- `min-inline-lg` → `min-inline-size: var(--container-lg); /* 32rem (512px) */`
+- `min-inline-md` → `min-inline-size: var(--container-md); /* 28rem (448px) */`
+- `min-inline-sm` → `min-inline-size: var(--container-sm); /* 24rem (384px) */`
+- `min-inline-xs` → `min-inline-size: var(--container-xs); /* 20rem (320px) */`
+- `min-inline-2xs` → `min-inline-size: var(--container-2xs); /* 18rem (288px) */`
+- `min-inline-3xs` → `min-inline-size: var(--container-3xs); /* 16rem (256px) */`
+```
+
+--------------------------------
+
+### Create a new Phoenix project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/phoenix
+
+Use this command to initialize a new Phoenix project and navigate into its directory.
+
+```Terminal
+mix phx.new myprojectcd myproject
+```
+
+--------------------------------
+
+### Text Color Basic Example
+
+Source: https://tailwindcss.com/docs/text-color
+
+Example demonstrating how to use Tailwind CSS text color utilities to control the text color of elements with support for dark mode variants.
+
+```APIDOC
+## Basic Text Color Example
+
+### Description
+Demonstrates how to apply text color utilities to HTML elements using predefined color classes and dark mode variants.
+
+### Usage
+Use utilities like `text-blue-600` and `text-sky-400` to control the text color of an element.
+
+### HTML Example
+```html
+<p class="text-blue-600 dark:text-sky-400">The quick brown fox jumps over the lazy dog.</p>
+```
+
+### Explanation
+- `text-blue-600` - Applies blue-600 text color in light mode
+- `dark:text-sky-400` - Applies sky-400 text color in dark mode
+
+### Result
+The paragraph text will display in blue-600 color by default, and switch to sky-400 when dark mode is enabled.
+```
+
+--------------------------------
+
+### Basic Spacing-Based Example
+
+Source: https://tailwindcss.com/docs/min-inline-size
+
+Demonstrates how to use min-inline-<number> utilities to set fixed minimum inline sizes based on the spacing scale. Shows multiple elements with different minimum inline size values.
+
+```APIDOC
+## Basic Spacing-Based Sizing
+
+### Description
+Use `min-inline-<number>` utilities like `min-inline-24` and `min-inline-64` to set an element to a fixed minimum inline size based on the spacing scale.
+
+### HTML Example
+```html
+<div class="inline-20 ...">
+  <div class="min-inline-80 ...">min-inline-80</div>
+  <div class="min-inline-64 ...">min-inline-64</div>
+  <div class="min-inline-48 ...">min-inline-48</div>
+  <div class="min-inline-40 ...">min-inline-40</div>
+  <div class="min-inline-32 ...">min-inline-32</div>
+  <div class="min-inline-24 ...">min-inline-24</div>
+</div>
+```
+
+### CSS Output
+- `min-inline-80` → `min-inline-size: calc(var(--spacing) * 80);`
+- `min-inline-64` → `min-inline-size: calc(var(--spacing) * 64);`
+- `min-inline-48` → `min-inline-size: calc(var(--spacing) * 48);`
+- `min-inline-40` → `min-inline-size: calc(var(--spacing) * 40);`
+- `min-inline-32` → `min-inline-size: calc(var(--spacing) * 32);`
+- `min-inline-24` → `min-inline-size: calc(var(--spacing) * 24);`
+```
+
+--------------------------------
+
+### Create a new Gatsby project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/gatsby
+
+Use the Gatsby CLI to initialize a new project and navigate into its directory.
+
+```shell
+gatsby new my-projectcd my-project
+```
+
+--------------------------------
+
+### Basic z-index Example
+
+Source: https://tailwindcss.com/docs/z-index
+
+Demonstrates how to use standard z-index utility classes to control element stacking order with numeric values.
+
+```APIDOC
+## Basic z-index Usage
+
+### Description
+Use the `z-<number>` utilities like `z-10` and `z-50` to control the stack order (or three-dimensional positioning) of an element, regardless of the order it has been displayed.
+
+### Example
+```html
+<div class="z-40 ...">05</div>
+<div class="z-30 ...">04</div>
+<div class="z-20 ...">03</div>
+<div class="z-10 ...">02</div>
+<div class="z-0 ...">01</div>
+```
+
+### Result
+Elements are stacked with z-40 appearing on top, followed by z-30, z-20, z-10, and z-0 at the bottom, regardless of their order in the HTML.
+```
+
+--------------------------------
+
+### Align grid items to the start
+
+Source: https://tailwindcss.com/docs/justify-items
+
+Use justify-items-start to align items to the beginning of their inline axis.
+
+```html
+<div class="grid justify-items-start ...">  <div>01</div>  <div>02</div>  <div>03</div>  <div>04</div>  <div>05</div>  <div>06</div></div>
+```
+
+--------------------------------
+
+### Create Angular project with Angular CLI
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/angular
+
+Initialize a new Angular project with CSS as the stylesheet format using the Angular CLI command.
+
+```bash
+ng new my-project --style css
+cd my-project
+```
+
+--------------------------------
+
+### place-self-end Example
+
+Source: https://tailwindcss.com/docs/place-self
+
+Demonstrates using the place-self-end class to align an item to the end position on both axes.
+
+```APIDOC
+## place-self-end
+
+### Description
+Align an item to the end on both axes.
+
+### Example
+```html
+<div class="grid grid-cols-3 gap-4 ...">
+  <div>01</div>
+  <div class="place-self-end ...">02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```
+```
+
+--------------------------------
+
+### GET border-x-blue-{shade}
+
+Source: https://tailwindcss.com/docs/border-color
+
+Utilities for setting the horizontal border color to blue shades (50-800).
+
+```APIDOC
+## GET border-x-blue-{shade}
+
+### Description
+Sets the border-inline-color property to a blue shade.
+
+### Method
+GET
+
+### Endpoint
+border-x-blue-{shade}
+
+### Parameters
+#### Path Parameters
+- **shade** (string) - Required - The shade value (50, 100, 200, 300, 400, 500, 600, 700, 800).
+
+### Request Example
+{
+  "class": "border-x-blue-500"
+}
+
+### Response
+#### Success Response (200)
+- **css** (string) - border-inline-color: var(--color-blue-500);
+
+#### Response Example
+{
+  "border-inline-color": "var(--color-blue-500)"
+}
+```
+
+--------------------------------
+
+### Create a new Nuxt project
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/nuxt
+
+Use `npm create nuxt` to initialize a new Nuxt project and navigate into its directory.
+
+```bash
+npm create nuxt my-project
+cd my-project
+```
+
+--------------------------------
+
+### GET border-x-sky-{shade}
+
+Source: https://tailwindcss.com/docs/border-color
+
+Utilities for setting the horizontal border color to sky shades (50-950).
+
+```APIDOC
+## GET border-x-sky-{shade}
+
+### Description
+Sets the border-inline-color property to a sky shade.
+
+### Method
+GET
+
+### Endpoint
+border-x-sky-{shade}
+
+### Parameters
+#### Path Parameters
+- **shade** (string) - Required - The shade value (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950).
+
+### Request Example
+{
+  "class": "border-x-sky-500"
+}
+
+### Response
+#### Success Response (200)
+- **css** (string) - border-inline-color: var(--color-sky-500);
+
+#### Response Example
+{
+  "border-inline-color": "var(--color-sky-500)"
+}
+```
+
+--------------------------------
+
+### Basic grid-auto-flow Example
+
+Source: https://tailwindcss.com/docs/grid-auto-flow
+
+Demonstrates how to use grid-auto-flow utilities like grid-flow-col and grid-flow-row-dense to control grid auto-placement behavior with a 3x3 grid layout.
+
+```APIDOC
+## Basic Example
+
+### Description
+Use utilities like `grid-flow-col` and `grid-flow-row-dense` to control how the auto-placement algorithm works for a grid layout.
+
+### HTML Example
+```html
+<div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 ...">
+  <div class="col-span-2">01</div>
+  <div class="col-span-2">02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+</div>
+```
+
+### Explanation
+- `grid-flow-row-dense`: Places grid items row-by-row with dense packing to fill gaps
+- `grid-cols-3`: Creates 3 equal columns
+- `grid-rows-3`: Creates 3 equal rows
+- `col-span-2`: Makes items span 2 columns
+```
+
+--------------------------------
+
+### Basic flex-1 example with growing flex items
+
+Source: https://tailwindcss.com/docs/flex
+
+Use flex-1 to allow flex items to grow and shrink equally, ignoring initial size. Useful for creating flexible layouts where items share available space.
+
+```html
+<div class="flex">  <div class="w-14 flex-none ...">01</div>  <div class="w-64 flex-1 ...">02</div>  <div class="w-32 flex-1 ...">03</div></div>
+```
+
+--------------------------------
+
+### GET border-x-cyan-{shade}
+
+Source: https://tailwindcss.com/docs/border-color
+
+Utilities for setting the horizontal border color to cyan shades (50-950).
+
+```APIDOC
+## GET border-x-cyan-{shade}
+
+### Description
+Sets the border-inline-color property to a cyan shade.
+
+### Method
+GET
+
+### Endpoint
+border-x-cyan-{shade}
+
+### Parameters
+#### Path Parameters
+- **shade** (string) - Required - The shade value (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950).
+
+### Request Example
+{
+  "class": "border-x-cyan-500"
+}
+
+### Response
+#### Success Response (200)
+- **css** (string) - border-inline-color: var(--color-cyan-500);
+
+#### Response Example
+{
+  "border-inline-color": "var(--color-cyan-500)"
+}
+```
+
+--------------------------------
+
+### GET border-x-teal-{shade}
+
+Source: https://tailwindcss.com/docs/border-color
+
+Utilities for setting the horizontal border color to teal shades (50-950).
+
+```APIDOC
+## GET border-x-teal-{shade}
+
+### Description
+Sets the border-inline-color property to a teal shade.
+
+### Method
+GET
+
+### Endpoint
+border-x-teal-{shade}
+
+### Parameters
+#### Path Parameters
+- **shade** (string) - Required - The shade value (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950).
+
+### Request Example
+{
+  "class": "border-x-teal-500"
+}
+
+### Response
+#### Success Response (200)
+- **css** (string) - border-inline-color: var(--color-teal-500);
+
+#### Response Example
+{
+  "border-inline-color": "var(--color-teal-500)"
+}
+```
+
+--------------------------------
+
+### Create a new Vite project
+
+Source: https://tailwindcss.com/docs
+
+Initialize a new Vite project using Create Vite. Run this command in your terminal to scaffold the project structure.
+
+```bash
+npm create vite@latest my-projectcd my-project
+```
+
+--------------------------------
+
+### Start Angular development server
+
+Source: https://tailwindcss.com/docs/installation/framework-guides/angular
+
+Run the Angular development server to build and serve your project with Tailwind CSS enabled.
+
+```bash
+ng serve
+```
+
+--------------------------------
+
+### GET border-x-emerald-{shade}
+
+Source: https://tailwindcss.com/docs/border-color
+
+Utilities for setting the horizontal border color to emerald shades (400-950).
+
+```APIDOC
+## GET border-x-emerald-{shade}
+
+### Description
+Sets the border-inline-color property to an emerald shade.
+
+### Method
+GET
+
+### Endpoint
+border-x-emerald-{shade}
+
+### Parameters
+#### Path Parameters
+- **shade** (string) - Required - The shade value (400, 500, 600, 700, 800, 900, 950).
+
+### Request Example
+{
+  "class": "border-x-emerald-400"
+}
+
+### Response
+#### Success Response (200)
+- **css** (string) - border-inline-color: var(--color-emerald-400);
+
+#### Response Example
+{
+  "border-inline-color": "var(--color-emerald-400)"
+}
+```
+
+--------------------------------
+
+### Responsive min-width Design
+
+Source: https://tailwindcss.com/docs/min-width
+
+Demonstrates how to use breakpoint variants with min-width utilities to apply different minimum widths at different screen sizes.
+
+```APIDOC
+## Responsive Design
+
+### Description
+Prefix a `min-width` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above.
+
+### HTML
+```html
+<div class="w-24 min-w-full md:min-w-0 ...">
+  <!-- ... -->
+</div>
+```
+
+### Breakpoint Variants
+All min-width utilities support responsive variants:
+- `sm:min-w-*` - Small screens and up
+- `md:min-w-*` - Medium screens and up
+- `lg:min-w-*` - Large screens and up
+- `xl:min-w-*` - Extra large screens and up
+- `2xl:min-w-*` - 2XL screens and up
+
+### Example Usage
+```html
+<!-- Full width on mobile, auto on medium screens and up -->
+<div class="min-w-full md:min-w-auto">...</div>
+
+<!-- min-w-sm on small screens, min-w-lg on large screens -->
+<div class="sm:min-w-sm lg:min-w-lg">...</div>
+```
+
+Learn more about using variants in the variants documentation.
+```
+
+--------------------------------
+
+### Basic mask-repeat example
+
+Source: https://tailwindcss.com/docs/mask-repeat
+
+Apply mask-repeat to repeat a mask image both vertically and horizontally across an element.
+
+```HTML
+<div class="mask-repeat mask-[url(/img/circle.png)] mask-size-[50px_50px] bg-[url(/img/mountains.jpg)] ..."></div>
+```
+
+--------------------------------
+
+### Responsive Design with place-self
+
+Source: https://tailwindcss.com/docs/place-self
+
+Demonstrates how to use breakpoint variants with place-self utilities to apply different alignment values at different screen sizes.
+
+```APIDOC
+## Responsive Design
+
+### Description
+Prefix a `place-self` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above.
+
+### Example
+```html
+<div class="place-self-start md:place-self-end ...">
+  <!-- Item aligns to start on small screens, end on medium screens and above -->
+</div>
+```
+
+### Breakpoint Variants
+Common breakpoint prefixes include:
+- `sm:` - Small screens
+- `md:` - Medium screens
+- `lg:` - Large screens
+- `xl:` - Extra large screens
+- `2xl:` - 2X large screens
+```
+
+--------------------------------
+
+### Basic Border Style Example
+
+Source: https://tailwindcss.com/docs/border-style
+
+Demonstrates how to use border-style utilities like border-solid, border-dashed, border-dotted, and border-double to control an element's border appearance.
+
+```APIDOC
+## Basic Border Style Usage
+
+### Description
+Apply different border styles to elements using border-style utility classes.
+
+### Example
+
+```html
+<div class="border-2 border-solid ...">Button A</div>
+<div class="border-2 border-dashed ...">Button A</div>
+<div class="border-2 border-dotted ...">Button A</div>
+<div class="border-4 border-double ...">Button A</div>
+```
+
+### Usage
+- Combine border-width utilities (e.g., `border-2`, `border-4`) with border-style utilities
+- `border-solid` creates a solid line border
+- `border-dashed` creates a dashed line border
+- `border-dotted` creates a dotted line border
+- `border-double` creates a double line border
+```
+
+--------------------------------
+
+### Order items first or last in HTML
+
+Source: https://tailwindcss.com/docs/order
+
+Apply order-first or order-last to move elements to the start or end of their container.
+
+```html
+<div class="flex justify-between ...">  <div class="order-last ...">01</div>  <div class="...">02</div>  <div class="order-first ...">03</div></div>
+```
+
+--------------------------------
+
+### Negative Scaling Example
+
+Source: https://tailwindcss.com/docs/scale
+
+Demonstrates how to use negative scale utilities to mirror and scale down elements by a percentage of their original size.
+
+```APIDOC
+## Negative Scaling
+
+### Description
+Use `-scale-<number>`, `-scale-x-<number>` or `-scale-y-<number>` utilities like `-scale-x-75` and `-scale-125` to mirror and scale down an element by a percentage of its original size.
+
+### Usage
+
+```html
+<img class="-scale-x-75 ..." src="/img/mountains.jpg" />
+<img class="-scale-100 ..." src="/img/mountains.jpg" />
+<img class="-scale-y-125 ..." src="/img/mountains.jpg" />
+```
+
+### Classes
+- `-scale-x-75` - Mirrors element horizontally and scales to 75% width
+- `-scale-100` - Mirrors element uniformly and scales to 100%
+- `-scale-y-125` - Mirrors element vertically and scales to 125% height
+```
+
+--------------------------------
+
+### Build responsive card layout with mobile-first approach
+
+Source: https://tailwindcss.com/docs/responsive-design
+
+Example of a marketing card component that stacks vertically on mobile and uses a side-by-side flex layout on medium screens and larger. Demonstrates responsive image sizing and flex container behavior.
+
+```html
+<div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">  <div class="md:flex">    <div class="md:shrink-0">      <img        class="h-48 w-full object-cover md:h-full md:w-48"        src="/img/building.jpg"        alt="Modern building architecture"      />    </div>    <div class="p-8">      <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Company retreats</div>      <a href="#" class="mt-1 block text-lg leading-tight font-medium text-black hover:underline">        Incredible accommodation for your team      </a>      <p class="mt-2 text-gray-500">        Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of        places to do just that.      </p>    </div>  </div></div>
+```

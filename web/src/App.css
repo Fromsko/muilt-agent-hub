@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@source "./**/*.{html,js,ts,jsx,tsx}";
+@source not "../docs/**";
+
+@layer antd, tailwind;
+
+@layer antd {
+  @import "antd/dist/reset.css";
+}
+
+:root {
+  --app-scrollbar-thumb: rgba(0, 0, 0, 0.15);
+  --app-scrollbar-track: transparent;
+  --app-font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --app-table-header-bg: #f8fafc;
+  --app-table-header-border: #e2e8f0;
+  --app-table-row-hover: #f8fbff;
+  --app-table-pagination-bg: rgba(248, 250, 252, 0.88);
+}
+
+[data-theme="dark"] {
+  --app-scrollbar-thumb: rgba(255, 255, 255, 0.15);
+  --app-scrollbar-track: transparent;
+  --app-table-header-bg: #111827;
+  --app-table-header-border: #1f2937;
+  --app-table-row-hover: rgba(96, 165, 250, 0.08);
+  --app-table-pagination-bg: rgba(15, 23, 42, 0.88);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--app-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--app-scrollbar-thumb);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--app-scrollbar-track);
+}
+
+.main-layout-main {
+  scrollbar-gutter: stable;
+}
+
+.data-table-shell .ant-table-container table > thead > tr > th {
+  background: var(--app-table-header-bg);
+  border-bottom-color: var(--app-table-header-border);
+  font-weight: 600;
+}
+
+.data-table-shell .ant-table-tbody > tr > td {
+  transition: background-color 0.2s ease;
+}
+
+.data-table-shell .ant-table-tbody > tr:hover > td {
+  background: var(--app-table-row-hover) !important;
+}
+
+.data-table-shell .ant-table-placeholder .ant-table-cell {
+  padding-block: 0;
+}
+
+.data-table-shell .ant-table-pagination {
+  margin: 0;
+  padding: 12px 16px;
+  border-top: 1px solid var(--app-table-header-border);
+  background: var(--app-table-pagination-bg);
+}
