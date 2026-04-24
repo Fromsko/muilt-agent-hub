@@ -132,3 +132,12 @@ cd web && bun run test
 ## 许可证
 
 [MIT](LICENSE)
+
+---
+
+<details>
+<summary>💝 致谢</summary>
+
+感谢母校(张家界学院) 治好了我的拖延症。
+
+</details>
