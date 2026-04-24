@@ -69,17 +69,23 @@ bun run dev
 
 ## 技术栈
 
-| 层 | 选型 |
-|---|---|
-| Web 框架 | FastAPI |
-| ORM | SQLModel + SQLAlchemy 2 |
-| 数据库 | SQLite |
-| 认证 | fastapi-users + JWT |
-| 多模型调用 | LiteLLM |
-| 前端框架 | React 19 |
-| 前端构建 | Rsbuild + Bun |
-| UI 库 | Ant Design 6 |
-| 样式 | TailwindCSS 4 |
+| 层 | 选型 | 官方文档 |
+|---|---|---|
+| Web 框架 | [FastAPI](https://fastapi.tiangolo.com/) | https://fastapi.tiangolo.com/ |
+| ORM | [SQLModel](https://sqlmodel.tiangolo.com/) + [SQLAlchemy 2](https://docs.sqlalchemy.org/) | https://sqlmodel.tiangolo.com/ |
+| 数据库 | [SQLite](https://www.sqlite.org/) | https://www.sqlite.org/ |
+| 认证 | [fastapi-users](https://fastapi-users.github.io/fastapi-users/) + JWT | https://fastapi-users.github.io/fastapi-users/ |
+| 多模型调用 | [LiteLLM](https://docs.litellm.ai/) | https://docs.litellm.ai/ |
+| 前端框架 | [React 19](https://react.dev/) | https://react.dev/ |
+| 前端构建 | [Rsbuild](https://rsbuild.dev/) + [Bun](https://bun.sh/) | https://rsbuild.dev/ |
+| UI 库 | [Ant Design 6](https://ant.design/) | https://ant.design/ |
+| 样式 | [TailwindCSS 4](https://tailwindcss.com/) | https://tailwindcss.com/ |
+| 包管理(Python) | [uv](https://docs.astral.sh/uv/) | https://docs.astral.sh/uv/ |
+| 包管理(JS) | [Bun](https://bun.sh/) | https://bun.sh/ |
+| 加密 | [cryptography](https://cryptography.io/) | https://cryptography.io/ |
+| 配置 | [pydantic-settings](https://docs.pydantic.dev/) | https://docs.pydantic.dev/ |
+| 测试 | [Playwright](https://playwright.dev/) | https://playwright.dev/ |
+| CI/CD | [GitHub Actions](https://docs.github.com/actions) | https://docs.github.com/actions |
 
 ## API 概览
 
@@ -139,5 +145,7 @@ cd web && bun run test
 <summary>💝 致谢</summary>
 
 感谢母校(张家界学院) 治好了我的拖延症。
+
+利用这个项目将我的零散知识串起来了，也让我知道后续该如何走下去，不断成长！
 
 </details>
