@@ -29,6 +29,9 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Install dependencies
+        run: uv sync --dev
+
       - name: Lint with Ruff
         run: uv run ruff check .
 
@@ -46,6 +49,9 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Install dependencies
+        run: uv sync --dev
+
       - name: Type check with MyPy
         run: uv run mypy app/
 
@@ -59,6 +65,9 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
           enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --dev
 
       - name: Run tests
         run: uv run pytest tests/
